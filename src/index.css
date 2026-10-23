@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+    /* Official Zestora Phase 2 Brand Identity Palette */
+    --zestora-blue: #0066ff;
+    --zestora-blue-hover: #0052cc;
+    --zestora-cyan: #38bdf8;
+    --zestora-navy: #0a192f;
+    --zestora-surface: #ffffff;
+    --zestora-bg: #f8fafc;
+    --zestora-gray-border: #e2e8f0;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--zestora-bg);
+    color: var(--zestora-navy);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    text-wrap: balance;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

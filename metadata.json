@@ -1,0 +1,6 @@
+{
+  "name": "Zestora — Smart Online Shopping",
+  "description": "Modern e-commerce shopping platform featuring curated electronics, fashion, home essentials, beauty, footwear, sports gear, accessories, and toys.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

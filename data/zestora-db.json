@@ -1,0 +1,1710 @@
+{
+  "staff": [
+    {
+      "id": "staff-super-1",
+      "email": "admin@zestora.in",
+      "username": "admin",
+      "name": "Aarav Mehta (Super Admin)",
+      "role": "SUPER_ADMIN",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "passwordHash": "71adfad75eff5141226b7f38aed71eb610ff56124e0705ed5f1171bbbe8d4a9e8b38e4d5cc46b46e1f42c83ab20b8d8dc0d322fa7c4282eec044e8295bdbd1d9",
+      "passwordSalt": "e548bceb4496fd63469e1af35ca83a83",
+      "lastLoginAt": "2026-10-19T16:34:31.426Z"
+    },
+    {
+      "id": "staff-pm-2",
+      "email": "products@zestora.in",
+      "username": "product_mgr",
+      "name": "Priya Nair (Product Manager)",
+      "role": "PRODUCT_MANAGER",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "passwordHash": "5533470cdb4309f6a85b8a8066d211ac159d9d8cdf8a28d6842ec3c70846e7727c6fbd5a45f8bfa44e5c5225150bdcf5413d458a573f5061d9a87f2f7e8bdbf4",
+      "passwordSalt": "cadb807cafc92da668878bc0b0e7f347",
+      "lastLoginAt": "2026-10-19T16:38:55.953Z"
+    },
+    {
+      "id": "staff-inv-3",
+      "email": "inventory@zestora.in",
+      "username": "inventory_mgr",
+      "name": "Rohan Kulkarni (Inventory Manager)",
+      "role": "INVENTORY_MANAGER",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "passwordHash": "0f7461b9e74aa8c27e386dba48ed73ce908ac894228cf1e76a5d385ed7bf59461e43a91c47a47c83a500eb3455fe530bd62ffda3a97d0ae8c01876db4702976a",
+      "passwordSalt": "dade7f879dca64d059a1f616366dbc81",
+      "lastLoginAt": "2026-10-19T16:39:37.273Z"
+    },
+    {
+      "id": "staff-ord-4",
+      "email": "orders@zestora.in",
+      "username": "order_mgr",
+      "name": "Ananya Sharma (Order Manager)",
+      "role": "ORDER_MANAGER",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "passwordHash": "fb1ad7a11227c39c99010a28c0a0f16a4a3802c11291e68e3a5bc760b6b42ddda7e6941a80eafd843292014bcf545549721978691c23d0951263cf0fb787ba99",
+      "passwordSalt": "01a9b268f5f93b1783d91402c708486d",
+      "lastLoginAt": "2026-10-19T16:39:56.444Z"
+    },
+    {
+      "id": "staff-cnt-5",
+      "email": "content@zestora.in",
+      "username": "content_mgr",
+      "name": "Kabir Verma (Content Manager)",
+      "role": "CONTENT_MANAGER",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "passwordHash": "f9cb9afc78677927d8eb5c153d2418932c2ac311dd133392f0f1b6d6959e63439a008b01ae35c1b1e1d9037f95684031ffec1af9989ad13ef253adaae842bb8d",
+      "passwordSalt": "ae5bd065fb144d5cdb296d12eda0bbc8",
+      "lastLoginAt": "2026-10-19T16:40:22.887Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "zest-prod-1792427801912",
+      "name": "photo",
+      "sku": "ZST-NEW-2007",
+      "description": "photo",
+      "shortDescription": "photo",
+      "category": "Toys",
+      "subcategory": "General",
+      "brand": "Zestora Originals",
+      "price": 2000,
+      "regularPrice": 2999,
+      "discountType": "none",
+      "discountValue": 33,
+      "saleStartDate": "2026-09-28",
+      "saleEndDate": "2026-10-23",
+      "costPrice": 882,
+      "stock": 25,
+      "lowStockThreshold": 5,
+      "status": "Draft",
+      "tags": [
+        "zestora"
+      ],
+      "weight": "450 g",
+      "dimensions": "20 × 15 × 8 cm",
+      "variants": [
+        {
+          "id": "var-1792427669391",
+          "size": "Standard",
+          "color": "Signature Blue",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 25
+        },
+        {
+          "id": "var-zest-prod-1792427801912-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Build Material",
+          "value": "Premium Grade"
+        },
+        {
+          "key": "Origin",
+          "value": "India"
+        }
+      ],
+      "highlights": [
+        "Zestora Quality Verified",
+        "Fast Express Dispatch"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [
+        {
+          "id": "img-1792427783962",
+          "url": "/uploads/products/1792427783961-4b0ea192-ASADUL__P-20-1-.jpg",
+          "alt": "ASADUL__P (1).jpg",
+          "isPrimary": true,
+          "order": 1
+        }
+      ],
+      "artwork": "anc-headphones",
+      "rating": 4.8,
+      "reviewCount": 1,
+      "featured": true,
+      "trending": false,
+      "specialOffer": false,
+      "demoTag": "Store Catalog",
+      "createdAt": "2026-10-19T16:36:41.912Z",
+      "updatedAt": "2026-10-19T16:39:46.152Z"
+    },
+    {
+      "id": "zest-prod-101",
+      "name": "Zestora SonicPro Max ANC Wireless Headphones",
+      "sku": "ZST-ELE-1001",
+      "description": "Hybrid active noise cancellation with 40mm titanium drivers, plush memory-foam earcups, and 45-hour battery life. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Hybrid active noise cancellation with 40mm titanium drivers, plush memory-foam earcups, and 45-hour battery life.",
+      "category": "Electronics",
+      "subcategory": "Wireless Audio & Tech",
+      "brand": "SonicPro Audio",
+      "price": 4999,
+      "regularPrice": 7999,
+      "discountType": "percentage",
+      "discountValue": 38,
+      "costPrice": 3099,
+      "stock": 42,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "electronics",
+        "sonicpro audio",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-101-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 42
+        },
+        {
+          "id": "var-zest-prod-101-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "Hybrid 42dB Active Noise Cancellation"
+        },
+        {
+          "key": "Specification 2",
+          "value": "45 Hours Playback with USB-C Rapid Charge"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Dual-Device Multipoint Bluetooth 5.3"
+        }
+      ],
+      "highlights": [
+        "Hybrid 42dB Active Noise Cancellation",
+        "45 Hours Playback with USB-C Rapid Charge",
+        "Dual-Device Multipoint Bluetooth 5.3"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "anc-headphones",
+      "rating": 4.8,
+      "reviewCount": 412,
+      "featured": true,
+      "trending": true,
+      "specialOffer": true,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:37:06.213Z"
+    },
+    {
+      "id": "zest-prod-102",
+      "name": "Nordic Cobalt Heavyweight Organic Hoodie",
+      "sku": "ZST-FAS-1002",
+      "description": "Structured 420 GSM combed organic cotton fleece with double-lined hood and relaxed modern drop shoulders. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Structured 420 GSM combed organic cotton fleece with double-lined hood and relaxed modern drop shoulders.",
+      "category": "Fashion",
+      "subcategory": "Men's Fashion",
+      "brand": "Nordic Loom",
+      "price": 1899,
+      "regularPrice": 2799,
+      "discountType": "percentage",
+      "discountValue": 32,
+      "costPrice": 1177,
+      "stock": 28,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "fashion",
+        "nordic loom",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-102-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 28
+        },
+        {
+          "id": "var-zest-prod-102-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "100% GOTS Certified Organic Cotton"
+        },
+        {
+          "key": "Specification 2",
+          "value": "420 GSM Brushed Interior Fleece"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Pre-Shrunk Colorfast Cobalt Dye"
+        }
+      ],
+      "highlights": [
+        "100% GOTS Certified Organic Cotton",
+        "420 GSM Brushed Interior Fleece",
+        "Pre-Shrunk Colorfast Cobalt Dye"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "cobalt-hoodie",
+      "rating": 4.7,
+      "reviewCount": 289,
+      "featured": true,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-103",
+      "name": "AeroStride CloudFoam Running Sneakers",
+      "sku": "ZST-FOO-1003",
+      "description": "Featherlight engineered knit upper paired with dual-density nitrogen-infused midsole for responsive daily cushioning. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Featherlight engineered knit upper paired with dual-density nitrogen-infused midsole for responsive daily cushioning.",
+      "category": "Footwear",
+      "subcategory": "Running Shoes",
+      "brand": "AeroStride",
+      "price": 2999,
+      "regularPrice": 4499,
+      "discountType": "percentage",
+      "discountValue": 33,
+      "costPrice": 1859,
+      "stock": 19,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "footwear",
+        "aerostride",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-103-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 19
+        },
+        {
+          "id": "var-zest-prod-103-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "Breathable Seamless Knit Upper"
+        },
+        {
+          "key": "Specification 2",
+          "value": "High-Traction Carbon Rubber Outsole"
+        },
+        {
+          "key": "Specification 3",
+          "value": "235g Ultra-Light Construction"
+        }
+      ],
+      "highlights": [
+        "Breathable Seamless Knit Upper",
+        "High-Traction Carbon Rubber Outsole",
+        "235g Ultra-Light Construction"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "cloud-sneaker",
+      "rating": 4.9,
+      "reviewCount": 534,
+      "featured": true,
+      "trending": true,
+      "specialOffer": true,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-104",
+      "name": "BaristaCraft 15-Bar Compact Espresso Maker",
+      "sku": "ZST-HOM-1004",
+      "description": "Brushed stainless-steel espresso machine featuring PID temperature stability and commercial-style steam wand. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Brushed stainless-steel espresso machine featuring PID temperature stability and commercial-style steam wand.",
+      "category": "Home and Kitchen",
+      "subcategory": "Kitchen Appliances",
+      "brand": "BaristaCraft",
+      "price": 8499,
+      "regularPrice": 12999,
+      "discountType": "percentage",
+      "discountValue": 35,
+      "costPrice": 5269,
+      "stock": 4,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "home and kitchen",
+        "baristacraft",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-104-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 4
+        },
+        {
+          "id": "var-zest-prod-104-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "15-Bar Italian Pressure Pump"
+        },
+        {
+          "key": "Specification 2",
+          "value": "PID Digital Temperature Control"
+        },
+        {
+          "key": "Specification 3",
+          "value": "360° Micro-Foam Milk Frothing Wand"
+        }
+      ],
+      "highlights": [
+        "15-Bar Italian Pressure Pump",
+        "PID Digital Temperature Control",
+        "360° Micro-Foam Milk Frothing Wand"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "espresso-maker",
+      "rating": 4.8,
+      "reviewCount": 196,
+      "featured": true,
+      "trending": false,
+      "specialOffer": true,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-105",
+      "name": "LuminaBotanical 15% Vitamin C Glow Serum",
+      "sku": "ZST-BEA-1005",
+      "description": "Stabilized L-Ascorbic acid complex blended with hyaluronic acid and ferulic extract in UV-protective frosted glass. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Stabilized L-Ascorbic acid complex blended with hyaluronic acid and ferulic extract in UV-protective frosted glass.",
+      "category": "Beauty",
+      "subcategory": "Skincare Serums",
+      "brand": "LuminaBotanical",
+      "price": 899,
+      "regularPrice": 1299,
+      "discountType": "percentage",
+      "discountValue": 31,
+      "costPrice": 557,
+      "stock": 35,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "beauty",
+        "luminabotanical",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-105-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 35
+        },
+        {
+          "id": "var-zest-prod-105-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "15% Pure Stabilized Vitamin C"
+        },
+        {
+          "key": "Specification 2",
+          "value": "Fragrance-Free & Dermatologist Tested"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Airless UV-Shield Pump Bottle"
+        }
+      ],
+      "highlights": [
+        "15% Pure Stabilized Vitamin C",
+        "Fragrance-Free & Dermatologist Tested",
+        "Airless UV-Shield Pump Bottle"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "vitamin-serum",
+      "rating": 4.6,
+      "reviewCount": 318,
+      "featured": true,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-106",
+      "name": "IronCore SelectTech 15kg Adjustable Dumbbell & Flask Set",
+      "sku": "ZST-SPO-1006",
+      "description": "Precision-machined quick-dial weight system paired with a vacuum-insulated 1L stainless steel sports bottle. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Precision-machined quick-dial weight system paired with a vacuum-insulated 1L stainless steel sports bottle.",
+      "category": "Sports",
+      "subcategory": "Home Gym Equipment",
+      "brand": "Zestora Originals",
+      "price": 3499,
+      "regularPrice": 4999,
+      "discountType": "percentage",
+      "discountValue": 30,
+      "costPrice": 2169,
+      "stock": 14,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "sports",
+        "zestora originals",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-106-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 14
+        },
+        {
+          "id": "var-zest-prod-106-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "5 Weight Increments in 1 Compact Frame"
+        },
+        {
+          "key": "Specification 2",
+          "value": "Anti-Slip Knurled Steel Grip"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Includes 24h Cold Insulated Sports Flask"
+        }
+      ],
+      "highlights": [
+        "5 Weight Increments in 1 Compact Frame",
+        "Anti-Slip Knurled Steel Grip",
+        "Includes 24h Cold Insulated Sports Flask"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "adjustable-dumbbell",
+      "rating": 4.7,
+      "reviewCount": 164,
+      "featured": true,
+      "trending": false,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-107",
+      "name": "Vanguard Full-Grain Leather Weekender Duffel",
+      "sku": "ZST-ACC-1007",
+      "description": "Cabin-friendly travel bag crafted with vegetable-tanned leather trim, padded 16-inch laptop sleeve, and shoe compartment. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Cabin-friendly travel bag crafted with vegetable-tanned leather trim, padded 16-inch laptop sleeve, and shoe compartment.",
+      "category": "Accessories",
+      "subcategory": "Travel & Eyewear",
+      "brand": "Zestora Originals",
+      "price": 4299,
+      "regularPrice": 5999,
+      "discountType": "percentage",
+      "discountValue": 28,
+      "costPrice": 2665,
+      "stock": 3,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "accessories",
+        "zestora originals",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-107-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 3
+        },
+        {
+          "id": "var-zest-prod-107-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "Dedicated Ventilated Shoe Compartment"
+        },
+        {
+          "key": "Specification 2",
+          "value": "Water-Repellent Ballistic Canvas & Leather"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Trolley Pass-Through Strap"
+        }
+      ],
+      "highlights": [
+        "Dedicated Ventilated Shoe Compartment",
+        "Water-Repellent Ballistic Canvas & Leather",
+        "Trolley Pass-Through Strap"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "leather-weekender",
+      "rating": 4.8,
+      "reviewCount": 142,
+      "featured": true,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-108",
+      "name": "WonderBuild 72-Piece Wooden STEM Robotics & Bear Set",
+      "sku": "ZST-TOY-1008",
+      "description": "Child-safe beechwood architectural blocks and plush companion bear designed for spatial reasoning and creative play. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Child-safe beechwood architectural blocks and plush companion bear designed for spatial reasoning and creative play.",
+      "category": "Toys",
+      "subcategory": "STEM & Educational",
+      "brand": "Zestora Originals",
+      "price": 1299,
+      "regularPrice": 1899,
+      "discountType": "percentage",
+      "discountValue": 32,
+      "costPrice": 805,
+      "stock": 22,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "toys",
+        "zestora originals",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-108-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 22
+        },
+        {
+          "id": "var-zest-prod-108-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "Non-Toxic Water-Based Natural Finishes"
+        },
+        {
+          "key": "Specification 2",
+          "value": "72 Modular Geometric & Gear Pieces"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Includes Hypoallergenic Plush Companion"
+        }
+      ],
+      "highlights": [
+        "Non-Toxic Water-Based Natural Finishes",
+        "72 Modular Geometric & Gear Pieces",
+        "Includes Hypoallergenic Plush Companion"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "plush-teddy",
+      "rating": 4.9,
+      "reviewCount": 276,
+      "featured": true,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-109",
+      "name": "ZestBook Air 14 Ultra-Slim Laptop (Demo Edition)",
+      "sku": "ZST-ELE-1009",
+      "description": "CNC-milled aluminum chassis with 2.8K OLED 120Hz display, 16GB unified memory, and 18-hour all-day battery. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "CNC-milled aluminum chassis with 2.8K OLED 120Hz display, 16GB unified memory, and 18-hour all-day battery.",
+      "category": "Electronics",
+      "subcategory": "Wireless Audio & Tech",
+      "brand": "SonicPro Audio",
+      "price": 54990,
+      "regularPrice": 64990,
+      "discountType": "percentage",
+      "discountValue": 15,
+      "costPrice": 34094,
+      "stock": 0,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "electronics",
+        "sonicpro audio",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-109-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "14-inch 2.8K 120Hz OLED Display"
+        },
+        {
+          "key": "Specification 2",
+          "value": "1.24 kg Featherweight Aluminum Unibody"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Backlit Tactile Keyboard & Wi-Fi 6E"
+        }
+      ],
+      "highlights": [
+        "14-inch 2.8K 120Hz OLED Display",
+        "1.24 kg Featherweight Aluminum Unibody",
+        "Backlit Tactile Keyboard & Wi-Fi 6E"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "ultrabook-pro",
+      "rating": 4.9,
+      "reviewCount": 128,
+      "featured": false,
+      "trending": true,
+      "specialOffer": true,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-110",
+      "name": "ChronoPulse AMOLED GPS Smartwatch Series 6",
+      "sku": "ZST-ELE-1010",
+      "description": "Always-on sapphire AMOLED display with dual-band GPS tracking, heart-rate variability metrics, and 5ATM water resistance. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Always-on sapphire AMOLED display with dual-band GPS tracking, heart-rate variability metrics, and 5ATM water resistance.",
+      "category": "Electronics",
+      "subcategory": "Wireless Audio & Tech",
+      "brand": "SonicPro Audio",
+      "price": 3799,
+      "regularPrice": 5999,
+      "discountType": "percentage",
+      "discountValue": 37,
+      "costPrice": 2355,
+      "stock": 18,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "electronics",
+        "sonicpro audio",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-110-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 18
+        },
+        {
+          "id": "var-zest-prod-110-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "1.43\" Always-On AMOLED Display"
+        },
+        {
+          "key": "Specification 2",
+          "value": "120+ Workout Modes & SpO2 Sensor"
+        },
+        {
+          "key": "Specification 3",
+          "value": "14-Day Typical Battery Life"
+        }
+      ],
+      "highlights": [
+        "1.43\" Always-On AMOLED Display",
+        "120+ Workout Modes & SpO2 Sensor",
+        "14-Day Typical Battery Life"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "smartwatch-series",
+      "rating": 4.6,
+      "reviewCount": 387,
+      "featured": false,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-111",
+      "name": "PureBreeze HEPA-13 Smart Room Air Purifier",
+      "sku": "ZST-HOM-1011",
+      "description": "360-degree 3-stage filtration system with real-time PM2.5 digital air quality ring and whisper-quiet 22dB sleep mode. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "360-degree 3-stage filtration system with real-time PM2.5 digital air quality ring and whisper-quiet 22dB sleep mode.",
+      "category": "Home and Kitchen",
+      "subcategory": "Kitchen Appliances",
+      "brand": "BaristaCraft",
+      "price": 6299,
+      "regularPrice": 8999,
+      "discountType": "percentage",
+      "discountValue": 30,
+      "costPrice": 3905,
+      "stock": 11,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "home and kitchen",
+        "baristacraft",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-111-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 11
+        },
+        {
+          "id": "var-zest-prod-111-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "Captures 99.97% of 0.3 Micron Particles"
+        },
+        {
+          "key": "Specification 2",
+          "value": "Covers up to 450 sq. ft. Living Spaces"
+        },
+        {
+          "key": "Specification 3",
+          "value": "22dB Ultra-Quiet Night Mode"
+        }
+      ],
+      "highlights": [
+        "Captures 99.97% of 0.3 Micron Particles",
+        "Covers up to 450 sq. ft. Living Spaces",
+        "22dB Ultra-Quiet Night Mode"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "air-purifier",
+      "rating": 4.7,
+      "reviewCount": 211,
+      "featured": false,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    },
+    {
+      "id": "zest-prod-112",
+      "name": "Solstice Polarized Acetate Wayfarer Sunglasses",
+      "sku": "ZST-ACC-1012",
+      "description": "Hand-polished Italian cellulose acetate frames fitted with UV400 anti-reflective polarized lenses. Crafted for durability and everyday performance with Zestora quality assurance.",
+      "shortDescription": "Hand-polished Italian cellulose acetate frames fitted with UV400 anti-reflective polarized lenses.",
+      "category": "Accessories",
+      "subcategory": "Travel & Eyewear",
+      "brand": "Zestora Originals",
+      "price": 1499,
+      "regularPrice": 2299,
+      "discountType": "percentage",
+      "discountValue": 35,
+      "costPrice": 929,
+      "stock": 27,
+      "lowStockThreshold": 5,
+      "status": "Active",
+      "tags": [
+        "accessories",
+        "zestora originals",
+        "zestora"
+      ],
+      "weight": "480 g",
+      "dimensions": "22 × 16 × 9 cm",
+      "variants": [
+        {
+          "id": "var-zest-prod-112-1",
+          "size": "Standard",
+          "color": "Signature Blue / Matte Slate",
+          "model": "2026 Edition",
+          "skuSuffix": "STD",
+          "stock": 27
+        },
+        {
+          "id": "var-zest-prod-112-2",
+          "size": "Collector Edition",
+          "color": "Obsidian Matte / Gold Trim",
+          "model": "Limited Drop",
+          "skuSuffix": "LTD",
+          "stock": 0
+        }
+      ],
+      "specifications": [
+        {
+          "key": "Specification 1",
+          "value": "100% UVA/UVB Polarized Protection"
+        },
+        {
+          "key": "Specification 2",
+          "value": "5-Barrel Stainless Steel Hinges"
+        },
+        {
+          "key": "Specification 3",
+          "value": "Includes Collapsible Hard Case"
+        }
+      ],
+      "highlights": [
+        "100% UVA/UVB Polarized Protection",
+        "5-Barrel Stainless Steel Hinges",
+        "Includes Collapsible Hard Case"
+      ],
+      "warranty": "1 Year Zestora Manufacturer Warranty",
+      "images": [],
+      "artwork": "polarized-wayfarer",
+      "rating": 4.5,
+      "reviewCount": 175,
+      "featured": false,
+      "trending": true,
+      "specialOffer": false,
+      "demoTag": "Demo Sample",
+      "createdAt": "2026-10-19T16:25:01.697Z",
+      "updatedAt": "2026-10-19T16:25:01.697Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-1",
+      "name": "Electronics",
+      "slug": "electronics",
+      "parentCategory": null,
+      "description": "Laptops, wireless audio, smart wearables & accessories",
+      "displayOrder": 1,
+      "status": "Active"
+    },
+    {
+      "id": "cat-2",
+      "name": "Fashion",
+      "slug": "fashion",
+      "parentCategory": null,
+      "description": "Contemporary everyday apparel, knitwear & tailored layers",
+      "displayOrder": 2,
+      "status": "Active"
+    },
+    {
+      "id": "cat-3",
+      "name": "Footwear",
+      "slug": "footwear",
+      "parentCategory": null,
+      "description": "Performance runners, court sneakers & casual slip-ons",
+      "displayOrder": 3,
+      "status": "Active"
+    },
+    {
+      "id": "cat-4",
+      "name": "Accessories",
+      "slug": "accessories",
+      "parentCategory": null,
+      "description": "Travel bags, polarized eyewear, wallets & daily carry",
+      "displayOrder": 4,
+      "status": "Active"
+    },
+    {
+      "id": "cat-5",
+      "name": "Home and Kitchen",
+      "slug": "home-and-kitchen",
+      "parentCategory": null,
+      "description": "Coffee brewers, air purifiers, cookware & modern living",
+      "displayOrder": 5,
+      "status": "Active"
+    },
+    {
+      "id": "cat-6",
+      "name": "Beauty",
+      "slug": "beauty",
+      "parentCategory": null,
+      "description": "Dermatologist-tested serums, botanical skincare & grooming",
+      "displayOrder": 6,
+      "status": "Active"
+    },
+    {
+      "id": "cat-7",
+      "name": "Sports",
+      "slug": "sports",
+      "parentCategory": null,
+      "description": "Home gym weights, training mats & hydration gear",
+      "displayOrder": 7,
+      "status": "Active"
+    },
+    {
+      "id": "cat-8",
+      "name": "Toys",
+      "slug": "toys",
+      "parentCategory": null,
+      "description": "Creative STEM building kits, wooden puzzles & plush companions",
+      "displayOrder": 8,
+      "status": "Active"
+    },
+    {
+      "id": "cat-sub-clothing",
+      "name": "Clothing",
+      "slug": "clothing",
+      "parentCategory": "Fashion",
+      "description": "Everyday shirts, hoodies, knitwear, and seasonal outerwear",
+      "displayOrder": 9,
+      "status": "Active"
+    },
+    {
+      "id": "cat-sub-mens",
+      "name": "Men's Fashion",
+      "slug": "mens-fashion",
+      "parentCategory": "Fashion",
+      "description": "Tailored menswear, casual hoodies, overshirts, and activewear",
+      "displayOrder": 10,
+      "status": "Active"
+    },
+    {
+      "id": "cat-sub-womens",
+      "name": "Women's Fashion",
+      "slug": "womens-fashion",
+      "parentCategory": "Fashion",
+      "description": "Contemporary womenswear, relaxed layers, and curated essentials",
+      "displayOrder": 11,
+      "status": "Active"
+    }
+  ],
+  "brands": [
+    {
+      "id": "brand-1",
+      "name": "Zestora Originals",
+      "slug": "zestora-originals",
+      "description": "Flagship in-house consumer tech and lifestyle essentials",
+      "status": "Active"
+    },
+    {
+      "id": "brand-2",
+      "name": "SonicPro Audio",
+      "slug": "sonicpro-audio",
+      "description": "High-fidelity wireless headphones and studio acoustic gear",
+      "status": "Active"
+    },
+    {
+      "id": "brand-3",
+      "name": "AeroStride",
+      "slug": "aerostride",
+      "description": "Performance running footwear and engineered athletic sneakers",
+      "status": "Active"
+    },
+    {
+      "id": "brand-4",
+      "name": "BaristaCraft",
+      "slug": "baristacraft",
+      "description": "Precision espresso machines and modern kitchen appliances",
+      "status": "Active"
+    },
+    {
+      "id": "brand-5",
+      "name": "Nordic Loom",
+      "slug": "nordic-loom",
+      "description": "GOTS-certified organic cotton streetwear and knitwear",
+      "status": "Active"
+    },
+    {
+      "id": "brand-6",
+      "name": "LuminaBotanical",
+      "slug": "luminabotanical",
+      "description": "Dermatologist-tested clean skincare and active serums",
+      "status": "Active"
+    }
+  ],
+  "orders": [
+    {
+      "id": "order-seed-1001",
+      "orderNumber": "ZST-ORD-1001",
+      "customerId": "cust-demo-1",
+      "customerName": "Diya Kapoor",
+      "customerEmail": "diya.kapoor@example.com",
+      "customerPhone": "+91 98201 44550",
+      "shippingAddress": "Flat 402, Skyview Residency, Indiranagar 100 Feet Road, Near Metro Station, Bengaluru, Karnataka - 560038",
+      "shippingAddressStructured": {
+        "id": "addr-demo-1",
+        "label": "Home",
+        "recipientName": "Diya Kapoor",
+        "phone": "+91 98201 44550",
+        "line1": "Flat 402, Skyview Residency, Indiranagar 100 Feet Road",
+        "line2": "Near Metro Station",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "postalCode": "560038",
+        "isDefault": true
+      },
+      "items": [
+        {
+          "productId": "zest-1",
+          "productName": "Zestora SonicPro ANC Wireless Headphones",
+          "sku": "ZST-ELE-1001",
+          "quantity": 1,
+          "unitPrice": 4999,
+          "regularPrice": 7999,
+          "artwork": "anc-headphones",
+          "selectedVariant": "Signature Blue / Matte Slate"
+        }
+      ],
+      "itemsSubtotal": 4999,
+      "productDiscountTotal": 3000,
+      "couponCode": "ZESTORA10",
+      "couponDiscount": 500,
+      "deliveryFee": 0,
+      "codFee": 0,
+      "includedGstAmount": 482,
+      "totalAmount": 4499,
+      "status": "Shipped",
+      "paymentStatus": "Verified Paid",
+      "paymentMethod": "UPI",
+      "paymentProviderDetail": "Google Pay (UPI)",
+      "transactionReference": "ZST-PAY-8841209",
+      "courierName": "BlueDart Priority Air",
+      "trackingNumber": "ZST-TRK-740912",
+      "trackingUrl": "https://www.bluedart.com/tracking?awb=ZST-TRK-740912",
+      "estimatedDeliveryDate": "2026-10-22",
+      "statusHistory": [
+        {
+          "status": "Shipped",
+          "location": "Bengaluru Regional Sort Facility",
+          "note": "Dispatched via BlueDart Priority Air (AWB: ZST-TRK-740912)",
+          "updatedBy": "order_mgr",
+          "timestamp": "2026-10-19T17:01:44.388Z"
+        },
+        {
+          "status": "Packed",
+          "location": "Zestora Fulfillment Hub — Bhiwandi",
+          "note": "Quality verified, invoice attached, and parcel sealed",
+          "updatedBy": "inventory_mgr",
+          "timestamp": "2026-10-19T12:01:44.719Z"
+        },
+        {
+          "status": "Processing",
+          "location": "Zestora Fulfillment Hub — Bhiwandi",
+          "note": "Items picked from warehouse bin A-14",
+          "updatedBy": "order_mgr",
+          "timestamp": "2026-10-19T08:01:44.719Z"
+        },
+        {
+          "status": "Confirmed",
+          "location": "Zestora Operations",
+          "note": "Payment verified via Google Pay UPI & order confirmed",
+          "updatedBy": "system",
+          "timestamp": "2026-10-19T05:01:44.719Z"
+        },
+        {
+          "status": "Order Placed",
+          "location": "Zestora Storefront",
+          "note": "Order placed by Diya Kapoor",
+          "updatedBy": "diya.kapoor@example.com",
+          "timestamp": "2026-10-19T05:01:44.719Z"
+        }
+      ],
+      "createdAt": "2026-10-19T05:01:44.719Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-demo-1",
+      "fullName": "Diya Kapoor",
+      "email": "diya.kapoor@example.com",
+      "mobile": "+91 98201 44550",
+      "gender": "Female",
+      "dateOfBirth": "1996-08-14",
+      "addresses": [
+        {
+          "id": "addr-demo-1",
+          "label": "Home",
+          "recipientName": "Diya Kapoor",
+          "phone": "+91 98201 44550",
+          "line1": "Flat 402, Skyview Residency, Indiranagar 100 Feet Road",
+          "line2": "Near Metro Station",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "postalCode": "560038",
+          "isDefault": true
+        },
+        {
+          "id": "addr-demo-2",
+          "label": "Work",
+          "recipientName": "Diya Kapoor",
+          "phone": "+91 98201 44550",
+          "line1": "Tower B, 7th Floor, Prestige Tech Park, Outer Ring Road",
+          "line2": "Marathahalli",
+          "city": "Bengaluru",
+          "state": "Karnataka",
+          "postalCode": "560103",
+          "isDefault": false
+        }
+      ],
+      "wishlistProductIds": [
+        "zest-1",
+        "zest-3"
+      ],
+      "recentlyViewedIds": [
+        "zest-1",
+        "zest-4",
+        "zest-6"
+      ],
+      "status": "Active",
+      "createdAt": "2026-10-19T17:01:44.388Z",
+      "orderCount": 1,
+      "passwordHash": "0f0c406d670c3eee706441ce9c01b9a731c96f8e00fcf190c235d2cfc31706c98eda605e41006c8015a5cde3f150439ee8dfd8e7e020067647be9fc88419cd90",
+      "passwordSalt": "d6e256295101064ff1683d95ac722ec2"
+    },
+    {
+      "id": "cust-1792428086292",
+      "fullName": "NUR",
+      "email": "samim8158900@gmail.com",
+      "mobile": "8158900327",
+      "status": "Active",
+      "createdAt": "2026-10-19T16:41:26.292Z",
+      "orderCount": 0,
+      "passwordHash": "ef207c1002a3e03365e6c0c4744e48295acde7d1aadd035043bec0c9474d5ffa7f25324906220181ace5f2c856f8e029d31ba2638e23df930a954a3ea7ea7add",
+      "passwordSalt": "930eda6300e6c8ee418e3de3741eda82"
+    }
+  ],
+  "storefront": {
+    "brandName": "Zestora",
+    "tagline": "Shop More · Live Better",
+    "customLogoUrl": "",
+    "announcementBarText": "Free Demo Express Delivery on orders above ₹999 · Manage live catalog in the Zestora Admin Panel",
+    "announcementBarActive": true,
+    "heroBanners": [
+      {
+        "id": "slide-1",
+        "kicker": "New Collection",
+        "titleLine1": "Discover More.",
+        "titleLine2": "Shop Smarter.",
+        "subtitle": "Explore amazing products at unbeatable prices. Experience a smarter, simpler shopping journey with ZESTORA.",
+        "ctaText": "Shop Now",
+        "targetCategory": "All",
+        "highlightBadge": "Up to 40% Off Demo Launch Specials",
+        "theme": "sky"
+      },
+      {
+        "id": "slide-2",
+        "kicker": "Smart Audio & Tech",
+        "titleLine1": "Next-Gen Sound.",
+        "titleLine2": "Engineered Clarity.",
+        "subtitle": "Upgrade your daily workflow with studio-grade noise-cancelling headphones, ultrabooks, and precision smartwatches.",
+        "ctaText": "Explore Electronics",
+        "targetCategory": "Electronics",
+        "highlightBadge": "Free Express Demo Delivery Over ₹999",
+        "theme": "indigo"
+      },
+      {
+        "id": "slide-3",
+        "kicker": "Everyday Essentials",
+        "titleLine1": "Elevated Living.",
+        "titleLine2": "Curated For Home.",
+        "subtitle": "From barista-grade espresso machines to breathable athletic footwear and timeless everyday apparel.",
+        "ctaText": "Browse Home & Living",
+        "targetCategory": "Home and Kitchen",
+        "highlightBadge": "Curated Demo Catalog · Transparent Pricing",
+        "theme": "emerald"
+      }
+    ],
+    "featuredSectionTitle": "Featured Products & Best Deals",
+    "trendingSectionTitle": "Trending Products on Zestora",
+    "footerTagline": "Zestora is a modern e-commerce shopping platform designed for effortless discovery across electronics, fashion, footwear, home essentials, beauty, sports, accessories, and toys.",
+    "supportEmail": "support@zestora-demo.in",
+    "supportHours": "Mon–Sat, 9:00 AM – 8:00 PM IST",
+    "paymentSettings": {
+      "upiEnabled": true,
+      "cardsNetbankingEnabled": true,
+      "codEnabled": true,
+      "codFee": 49,
+      "codMinOrder": 100,
+      "codMaxOrder": 50000,
+      "freeDeliveryThreshold": 999,
+      "standardDeliveryFee": 79,
+      "returnWindowDays": 7,
+      "razorpayConfigured": false,
+      "razorpayKeyIdPublic": ""
+    },
+    "updatedAt": "2026-10-19T16:25:01.697Z"
+  },
+  "coupons": [
+    {
+      "code": "ZESTORA10",
+      "description": "10% Instant Discount up to ₹1,500 on orders above ₹999",
+      "discountType": "percentage",
+      "discountValue": 10,
+      "minOrderAmount": 999,
+      "maxDiscountAmount": 1500,
+      "active": true
+    },
+    {
+      "code": "WELCOME200",
+      "description": "Flat ₹200 OFF on orders above ₹1,499",
+      "discountType": "fixed",
+      "discountValue": 200,
+      "minOrderAmount": 1499,
+      "active": true
+    },
+    {
+      "code": "FESTIVE15",
+      "description": "15% Super Saver Discount up to ₹2,500 on orders above ₹2,999",
+      "discountType": "percentage",
+      "discountValue": 15,
+      "minOrderAmount": 2999,
+      "maxDiscountAmount": 2500,
+      "active": true
+    }
+  ],
+  "paymentTransactions": [
+    {
+      "id": "pay-seed-1",
+      "orderId": "order-seed-1001",
+      "orderNumber": "ZST-ORD-1001",
+      "customerId": "cust-demo-1",
+      "customerEmail": "diya.kapoor@example.com",
+      "amount": 4499,
+      "method": "UPI",
+      "providerDetail": "Google Pay (UPI)",
+      "status": "Verified Paid",
+      "gatewayOrderId": "order_zst_seed_1001",
+      "gatewayPaymentId": "ZST-PAY-8841209",
+      "gatewaySignatureVerified": true,
+      "createdAt": "2026-10-19T17:01:44.388Z",
+      "updatedAt": "2026-10-19T17:01:44.388Z"
+    }
+  ],
+  "returnRequests": [],
+  "notifications": [
+    {
+      "id": "notif-seed-1",
+      "customerId": "cust-demo-1",
+      "title": "Order ZST-ORD-1001 Shipped!",
+      "message": "Your Zestora SonicPro ANC Wireless Headphones have been shipped via BlueDart Priority Air (Tracking: ZST-TRK-740912).",
+      "type": "order",
+      "read": false,
+      "createdAt": "2026-10-19T17:01:44.388Z"
+    }
+  ],
+  "priceHistory": [],
+  "stockHistory": [
+    {
+      "id": "sh-1792427986152",
+      "productId": "zest-prod-1792427801912",
+      "productName": "photo",
+      "sku": "ZST-NEW-2007",
+      "previousStock": 25,
+      "newStock": 25,
+      "adjustment": 0,
+      "reason": "Manual Restock / Inventory Count",
+      "adminUsername": "inventory_mgr",
+      "timestamp": "2026-10-19T16:39:46.152Z"
+    },
+    {
+      "id": "sh-1792427892888",
+      "productId": "zest-prod-1792427801912",
+      "productName": "photo",
+      "sku": "ZST-NEW-2007",
+      "previousStock": 25,
+      "newStock": 25,
+      "adjustment": 0,
+      "reason": "Manual Restock / Inventory Count",
+      "adminUsername": "admin",
+      "timestamp": "2026-10-19T16:38:12.888Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "audit-1792428022887-1zag",
+      "actor": "content_mgr",
+      "role": "CONTENT_MANAGER",
+      "action": "Admin Login",
+      "target": "Signed in as content_mgr (CONTENT_MANAGER)",
+      "timestamp": "2026-10-19T16:40:22.887Z"
+    },
+    {
+      "id": "audit-1792427996444-dsh9",
+      "actor": "order_mgr",
+      "role": "ORDER_MANAGER",
+      "action": "Admin Login",
+      "target": "Signed in as order_mgr (ORDER_MANAGER)",
+      "timestamp": "2026-10-19T16:39:56.444Z"
+    },
+    {
+      "id": "audit-1792427986152-wjbi",
+      "actor": "inventory_mgr",
+      "role": "INVENTORY_MANAGER",
+      "action": "Inventory Stock Adjusted",
+      "target": "ZST-NEW-2007: 25 → 25 (Manual Restock / Inventory Count)",
+      "timestamp": "2026-10-19T16:39:46.152Z"
+    },
+    {
+      "id": "audit-1792427977273-t0ed",
+      "actor": "inventory_mgr",
+      "role": "INVENTORY_MANAGER",
+      "action": "Admin Login",
+      "target": "Signed in as inventory_mgr (INVENTORY_MANAGER)",
+      "timestamp": "2026-10-19T16:39:37.273Z"
+    },
+    {
+      "id": "audit-1792427935953-6x6k",
+      "actor": "product_mgr",
+      "role": "PRODUCT_MANAGER",
+      "action": "Admin Login",
+      "target": "Signed in as product_mgr (PRODUCT_MANAGER)",
+      "timestamp": "2026-10-19T16:38:55.953Z"
+    },
+    {
+      "id": "audit-1792427906319-nqyn",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Updated Product",
+      "target": "photo (ZST-NEW-2007)",
+      "timestamp": "2026-10-19T16:38:26.319Z"
+    },
+    {
+      "id": "audit-1792427892888-tk7j",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Inventory Stock Adjusted",
+      "target": "ZST-NEW-2007: 25 → 25 (Manual Restock / Inventory Count)",
+      "timestamp": "2026-10-19T16:38:12.888Z"
+    },
+    {
+      "id": "audit-1792427826213-hypl",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Bulk Updated Products",
+      "target": "1 products updated",
+      "timestamp": "2026-10-19T16:37:06.213Z"
+    },
+    {
+      "id": "audit-1792427801912-kctg",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Created Product",
+      "target": "photo (ZST-NEW-2007)",
+      "timestamp": "2026-10-19T16:36:41.912Z"
+    },
+    {
+      "id": "audit-1792427783961-vidy",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Uploaded Product Image",
+      "target": "/uploads/products/1792427783961-4b0ea192-ASADUL__P-20-1-.jpg",
+      "timestamp": "2026-10-19T16:36:23.961Z"
+    },
+    {
+      "id": "audit-1792427671426-yh1q",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Admin Login",
+      "target": "Signed in as admin (SUPER_ADMIN)",
+      "timestamp": "2026-10-19T16:34:31.426Z"
+    },
+    {
+      "id": "audit-1792427658434-aom6",
+      "actor": "order_mgr",
+      "role": "ORDER_MANAGER",
+      "action": "Admin Login",
+      "target": "Signed in as order_mgr (ORDER_MANAGER)",
+      "timestamp": "2026-10-19T16:34:18.434Z"
+    },
+    {
+      "id": "audit-1792427383072-1nrp",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Admin Login",
+      "target": "Signed in as admin (SUPER_ADMIN)",
+      "timestamp": "2026-10-19T16:29:43.072Z"
+    },
+    {
+      "id": "audit-1792427262528-hfa2",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Admin Login",
+      "target": "Signed in as admin (SUPER_ADMIN)",
+      "timestamp": "2026-10-19T16:27:42.528Z"
+    },
+    {
+      "id": "audit-1792427120542-tykc",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "Admin Login",
+      "target": "Signed in as admin (SUPER_ADMIN)",
+      "timestamp": "2026-10-19T16:25:20.542Z"
+    },
+    {
+      "id": "audit-init-1",
+      "actor": "admin",
+      "role": "SUPER_ADMIN",
+      "action": "System Initialized",
+      "target": "Seeded initial admin roles, 11 categories, 6 brands, and 12 catalog products",
+      "timestamp": "2026-10-19T16:25:01.697Z"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-seed-1",
+      "productId": "zest-prod-101",
+      "customerId": "cust-demo-1",
+      "customerName": "Diya Kapoor",
+      "rating": 5,
+      "title": "Studio-grade ANC and super comfortable memory-foam earcups",
+      "comment": "Ordered via Zestora Express (Order ZST-ORD-1001). The hybrid active noise cancellation blocks out office and metro noise effortlessly, and the 45-hour battery life easily lasts an entire week of calls and music.",
+      "photos": [],
+      "verifiedPurchase": true,
+      "selectedVariant": "Obsidian Black · Standard Edition",
+      "helpfulVoterIds": [
+        "cust-demo-1"
+      ],
+      "helpfulCount": 1,
+      "reportCount": 0,
+      "createdAt": "2026-10-20T06:26:12.687Z",
+      "updatedAt": "2026-10-20T06:26:12.687Z"
+    }
+  ],
+  "reviewReports": [],
+  "questions": [
+    {
+      "id": "qa-1792478009086-q3nh",
+      "productId": "zest-prod-101",
+      "customerId": "cust-demo-1",
+      "customerName": "Diya Kapoor",
+      "questionText": "Does the box include a 3.5mm braided aux cable for wired listening?",
+      "answers": [],
+      "createdAt": "2026-10-20T06:33:29.086Z"
+    },
+    {
+      "id": "qa-seed-1",
+      "productId": "zest-prod-101",
+      "customerId": "cust-demo-1",
+      "customerName": "Diya Kapoor",
+      "questionText": "Does this support multipoint Bluetooth connection with both laptop and phone simultaneously?",
+      "answers": [
+        {
+          "id": "ans-seed-1",
+          "questionId": "qa-seed-1",
+          "productId": "zest-prod-101",
+          "authorId": "staff-super-1",
+          "authorName": "Zestora Official Store",
+          "authorRole": "Verified Seller",
+          "answerText": "Yes! It features Bluetooth 5.3 dual-device multipoint pairing so you can stay connected to your laptop and smartphone at the same time.",
+          "helpfulVoterIds": [],
+          "helpfulCount": 0,
+          "reportedByIds": [],
+          "createdAt": "2026-10-20T06:26:12.687Z"
+        }
+      ],
+      "createdAt": "2026-10-20T06:26:12.687Z"
+    }
+  ],
+  "stock_alerts": [
+    {
+      "id": "stk-alert-1792480840961-4kz4",
+      "productId": "zest-prod-101",
+      "productName": "Zestora SonicPro Max ANC Wireless Headphones",
+      "variantId": "var-zest-prod-101-2",
+      "variantLabel": "Obsidian Matte / Gold Trim · Collector Edition · Limited Drop",
+      "email": "aarav.mehta@example.com",
+      "status": "pending",
+      "createdAt": "2026-10-20T07:20:40.961Z"
+    },
+    {
+      "id": "stk-alert-1792482708006-9hjv",
+      "productId": "zest-prod-101",
+      "productName": "Zestora SonicPro Max ANC Wireless Headphones",
+      "variantId": "var-zest-prod-101-2",
+      "variantLabel": "Obsidian Matte / Gold Trim · Collector Edition · Limited Drop",
+      "email": "stock.alert.1792482707829@example.com",
+      "status": "pending",
+      "createdAt": "2026-10-20T07:51:48.006Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "8ba4cfc2efb4586817d64d0d93dbdd6e3b91c77d40e43c9ce3c7a98ff9a084f7",
+      "userId": "staff-super-1",
+      "expiresAt": 1792470320542
+    },
+    {
+      "token": "9f421f2396ea0de1423ac652d4d390b3b2eb9bbf6d30e12dbc3e2cdc40da1f28",
+      "userId": "staff-super-1",
+      "expiresAt": 1792470462528
+    },
+    {
+      "token": "2c95d5dec0d49cf7822ca91706fe3ab2a5b0a218782f8d4c10fa231775d42f4e",
+      "userId": "staff-super-1",
+      "expiresAt": 1792470583072
+    }
+  ],
+  "customerSessions": [
+    {
+      "token": "f74b8fb88ff06bf1f42126f034fa4ba71af2218c17c2efd491f969c4fc9823ce",
+      "customerId": "cust-1792428086292",
+      "expiresAt": 1793034130737
+    },
+    {
+      "token": "798475ce778577e637064a6133b86d69bf7d11b14b622cdad3df242d35b68485",
+      "customerId": "cust-demo-1",
+      "expiresAt": 1793034907837
+    },
+    {
+      "token": "30203f3384a09c67d20572b0535dcbe21d10dec924249028edb0655e324333fc",
+      "customerId": "cust-demo-1",
+      "expiresAt": 1793082198771
+    },
+    {
+      "token": "dee9a3e74f261669931dcec4706bac7b7a9efc0cbc76598f81f10a7a49ecae63",
+      "customerId": "cust-demo-1",
+      "expiresAt": 1793082390476
+    },
+    {
+      "token": "96ca41eaa7f85499cfc3f199ee11860b72021a74b2eae178c62728009216b4ea",
+      "customerId": "cust-demo-1",
+      "expiresAt": 1793082634536
+    },
+    {
+      "token": "27701b9ca698b14261f74b31188d6e6068a50033ef6ac1e16353f35ec2677afd",
+      "customerId": "cust-demo-1",
+      "expiresAt": 1793082807790
+    }
+  ],
+  "passwordResetOtps": []
+}
